@@ -1,0 +1,23 @@
+{
+    "name": "gwsn/cache-util",
+    "description": "Add some functionality to Guzzle Client request with validation",
+    "keywords": ["Caching", "Cache Helper"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jurn Overmars",
+            "email": "jovermars@gwsn.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Gwsn\\CacheUtil\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
